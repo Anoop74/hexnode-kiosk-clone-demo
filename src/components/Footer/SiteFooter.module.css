@@ -1,0 +1,46 @@
+.siteFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  color: #666;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.links a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.separator {
+  color: #999;
+}
+
+.copyright {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .siteFooter {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}

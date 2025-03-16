@@ -1,0 +1,90 @@
+.usecaseContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.usecaseTitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: #000;
+}
+
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.deviceImageContainer {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.deviceImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.featuresContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.featureItem {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.featureItem:last-child {
+  border-bottom: none;
+}
+
+.featureItem h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.featureItem p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.activeFeature h3 {
+  color: #000;
+}
+
+.tryFreeLink {
+  color: #ff3b30;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .contentContainer {
+    flex-direction: column;
+  }
+
+  .deviceImageContainer {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .featuresContainer {
+    width: 100%;
+  }
+}

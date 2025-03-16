@@ -1,0 +1,184 @@
+.heroSection {
+  background-color: #020a19;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 60px 40px 40px;
+  margin-bottom: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 550px;
+}
+
+.heading {
+  font-size: 34px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  line-height: 1.2;
+  margin: 0 0 30px 0;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 500px;
+  gap: 10px;
+}
+
+.inputField {
+  height: 53px;
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.heroImg {
+  max-width: 80%;
+  width: auto;
+  height: auto;
+}
+
+.achievementSection {
+  background-color: #1a1c2b;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.achievementContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.achievement {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.achievementLogo {
+  height: 28px;
+  width: auto;
+  margin-bottom: 15px;
+  align-self: flex-start;
+}
+
+.achievementText {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  align-self: flex-start;
+  max-width: 320px;
+}
+
+.divider {
+  width: 1px;
+  height: 100px;
+  background-color: hwb(0 42% 58% / 0.6);
+  margin: 0;
+  align-self: center;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 40px 20px 60px;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 30px 20px 50px;
+  }
+
+  .content {
+    align-items: center;
+    margin-top: 30px;
+    max-width: 100%;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .formGroup {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+
+  .heroImg {
+    max-width: 90%;
+  }
+
+  .achievementContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .achievement {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .achievementLogo {
+    align-self: center;
+  }
+
+  .achievementText {
+    text-align: center;
+    align-self: center;
+  }
+
+  .divider {
+    width: 80%;
+    height: 1px;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding: 80px 40px 100px;
+  }
+
+  .heading {
+    font-size: 48px;
+  }
+}
