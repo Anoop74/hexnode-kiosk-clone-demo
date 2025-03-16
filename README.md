@@ -17,6 +17,7 @@ Follow these steps to clone and run the project locally:
 
 **1️⃣ Clone the repository**
 git clone https://github.com/Anoop74/hexnode-kiosk-clone-demo.git
+
 cd hexnode-kiosk-clone
 
 **2️⃣ Install dependencies**
